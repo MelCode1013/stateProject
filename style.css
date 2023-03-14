@@ -3,12 +3,50 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    text-align: center;
 }
 
+header > h1 {
+    padding: 1.5rem;
+    padding-top: 2rem;
+}
+
+header> p {
+    padding: 1.2rem;
+}
+
+.homepage-header {
+    background-image: url();
+}
 ul {
     list-style: none;
-} 
+}
+/* Responsive - Mobile first*/
 
+/*Homepage*/
+
+nav {
+    background-color: #778DA9;
+}
+
+#florida-logo {
+    max-width: 100%;
+}
+
+nav {
+    display: flex;
+}
+
+nav > ul {
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    padding-left: 10px;
+}
 /*Miami page*/
 
 .miami-header {
@@ -43,3 +81,4 @@ ul {
 .miami-header p {
     padding-bottom: 20px;
 }
+
