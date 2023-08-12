@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+} 
+
+/*Miami page*/
+
+.miami-header {
+    text-align: center;
+    padding: 2rem;
+}
+
+.miami-header {
+    background-image: url(/img/aurora-kreativ-miami-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.miami-header h1, p {
+    color: rgba(red, green, blue, alpha);
+    font-weight: bold;
+    padding: 10px;
+    padding-right: 10em;
+    padding-left: 10em;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6680911680911681) 21%, rgba(255, 255, 255, 1) 51%, rgba(255, 255, 255, 0.6082621082621082) 84%, rgba(245, 245, 245, 0) 100%, rgba(255, 255, 255, 0) 100%);
+}
+
+.miami-header h1 {
+    padding-top: 20px;
+}
+
+.miami-header p {
+    padding-bottom: 20px;
+}
