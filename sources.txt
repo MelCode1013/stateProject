@@ -8,10 +8,15 @@ Home page photos
 
 Information:
 
-Population: "Florida." Wikipedia. Retrieved August 3, 2023, from https://en.wikipedia.org/wiki/Florida.
+ "Florida" Wikipedia. Retrieved August 3, 2023, from https://en.wikipedia.org/wiki/Florida.
 
-<a href='https://www.macrotrends.net/states/florida/population'>Florida Population 1900-2022</a>. www.macrotrends.net. Retrieved 2023-08-14. 
+"Miami" Wikipedia. Retrieved August 15, 2023, from https://en.wikipedia.org/wiki/Miami.
 
-"QuickFacts Florida". United States Census Bureau.  Retrieved 2023-08-14, from https://www.census.gov/quickfacts/fact/table/FL/PST045222 
+"Orlando" Wikipedia. Retrieved August 15, 2023, from https://en.wikipedia.org/wiki/Orlando,_Florida.
 
-State bird: "Florida." Wikipedia. Retrieved August 3, 2023, from https://en.wikipedia.org/wiki/Florida. 
+
+"Florida Population 1900-2022". www.macrotrends.net. Retrieved 2023-08-1, from https://www.macrotrends.net/states/florida/population.
+
+"QuickFacts Florida". United States Census Bureau.  Retrieved 2023-08-14, from https://www.census.gov/quickfacts/fact/table/FL/PST045222
+
+State bird: "Florida" Wikipedia. Retrieved August 3, 2023, from https://en.wikipedia.org/wiki/Florida
