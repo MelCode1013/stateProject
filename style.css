@@ -5,12 +5,13 @@
     font-family: 'Poppins', sans-serif;
 }
 html {
-    width: 100vw;
+    max-width: 100vw;
     background-color: #E0E1DD;
 }
 
 body {
     text-align: center;
+    overflow-x: hidden;
 }
 
 header > h1 {
@@ -41,7 +42,7 @@ header> p {
 
 .homepage-header {
     background-image: url(/img/done-by-alex-unsplash.jpg);
-    background-size: cover;
+    background-size: contain;
 }
 
 header {
@@ -143,19 +144,18 @@ h2 {
 }
 
 .population-para {
-    padding: 10px 40px;
+    text-align: center;
+    display: inline-table;
+    clear: both;
 }
 
-aside {
-    display: none;
-}
 
 /*Miami page*/
 
 
 
 .miami-header {
-    background-image: url(/img/aurora-kreativ-miami-unsplash.jpg);
+    background-image: url(./img/aurora-kreativ-miami-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
@@ -166,7 +166,7 @@ aside {
 /* tallahassee*/
 
 .stateCapital-header {
-    background-image: url(/img/kevin-dunlap-unsplash.jpg);
+    background-image: url(./img/kevin-dunlap-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-color: white;
@@ -177,7 +177,7 @@ aside {
 /* Orlando */
 
 .orlando-header {
-        background-image: url(/img/kaleb-tapp-unsplash.jpg);
+        background-image: url(./img/kaleb-tapp-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-color: white;
@@ -185,20 +185,22 @@ aside {
         padding: 50px 0;
     }
 
-.orlando-header > h1 > p { 
+.orlando-header > h1 > p {
 padding-bottom: 10px;
 }
-
+.homepage-header {
+    background-image: url(./img/done-by-alex-unsplash.jpg);
+    background-size: cover;
+}
 
 @media screen and (min-width: 728px) {
     .orlando-list {
         list-style: circle;
         text-align: left;
+        padding-left: 20px;
     }
     .population-para {
-        text-align: left;
-        width: 500px;
-        clear: auto;
+       max-width: 20%;
     }
     table {
         margin: 0px;
@@ -211,11 +213,7 @@ padding-bottom: 10px;
 padding: 3px;
     margin: 0;
     }
-    section.population {
-        display: flex;
-        justify-content: space-between;
-        margin: 0 50px;
-    }
+   
 
     .population-heading {
         margin: 0 auto;
@@ -224,30 +222,65 @@ padding: 3px;
     }
 
 
+/* Your existing CSS styles */
+
+/* Add styles for the aside */
 aside {
+    background-color: #b8d8ef;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin-left: 0.5rem;
-        margin-right: 0.5rem;
     float: right;
+    clear: right;
+    margin-left: 20px;
     box-shadow: inset 5px 0 5px -5px #29627e;
     font-style: italic;
     color: #29627e;
+    padding: 10px;
+    margin: 10px;
 }
 
-aside > ol > li {
-    text-align: left;
-    padding-left: 0;
-    padding: 2px 0 ;
+aside h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
 }
 
-aside > p {
-    padding: 5px 0;
+aside p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+aside ol {
+    max-width: 80%;
+    margin-left: 30px;
+}
+
+/* Clear the float to prevent layout issues */
+section.population::after {
+    content: "";
+    display: table;
+}
+
+/* Additional styles for responsiveness */
+@media screen and (max-width: 768px) {
+    aside {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        margin-top: 10px;
+        box-shadow: none;
+        font-style: normal;
+        color: inherit;
+    }
+
+    aside h3 {
+        font-size: 1rem;
+    }
+
+    aside p {
+        font-size: 0.9rem;
+    }
 }
 
 #florida-logo {
@@ -271,7 +304,21 @@ padding: 0 30px;}
 
 /*state capital ipad*/
 
-.population {
-margin: 0 auto;
-justify-content: space-evenly;
+.state-capital-aside {
+    margin-right: 20px;
+    max-width: 600px;
+}
+
+.state-capital-founded {
+    display: inline-block;
+    margin: 10px;
+    width: 50%;
+}
+
+main {
+    padding: 0 70px;
+}
+
+section.population > p {
+    max-width: 35%;
 }

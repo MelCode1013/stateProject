@@ -7,28 +7,19 @@
     <title>Florida State Capital</title>
     <link href="../style.css" rel="stylesheet">
 </head>
-<!--To do list
-•   the city’s population
-
-•   the year the city was incorporated
-
-•   the region of the state in which the city is located
-
-•   the classification of the city: urban, suburban, and/or rural
-
-•   the average income level of the city compared to the rest of the state-->
 
 <body>
     <nav>
         <ul>
             <li><img src="../img/Florida.png" alt="Icon for florida state website" id="florida-logo"></li>
             <li><a href="../index.html">Home</a></li>
-            <li><a href="/pages/stateCapital.html">State Capital</a></li>
-            <li><a href="/pages/orlando.html">Orlando</a></li>
-            <li><a href="/pages/miami.html">Miami</a></li>
-            <li><a href="/pages/contact.html">Contact Us!</a></li>
+            <li><a href="stateCapital.html">State Capital</a></li>
+            <li><a href="orlando.html">Orlando</a></li>
+            <li><a href="miami.html">Miami</a></li>
+            <li><a href="contact.html">Contact Us!</a></li>
         </ul>
     </nav>
+    <!--THIS IS THE HEADER-->
     <header class="stateCapital-header">
         <h1>Tallahassee - FL state capital</h1>
         <p>Home of the FSU Seminoles</p>
@@ -36,14 +27,17 @@
     <main>
         <h2 class="population-heading">Population</h2>
         <section class="population">
-
-            <p class="population-para">Tallahassee is well-known as being a college town, with a student population that
+            <!--THE CITY'S POPULATION, REGION THE STATE IS LOCATED IN, AND URBAN CLASSIFICATION-->
+            <p class="population-para">Tallahassee, located in the Florida Panhandle region, is well-known as being a
+                college town, with a student population that
                 exceeds 70,000. The
                 city's population is 201,731 as of 2022. That makes Tallahassee the eigth-most populated urban city in
-                FL.</p>
-            <aside>
+                FL, according to Wikipedia(<a href="https://en.wikipedia.org/wiki/Tallahassee,_Florida"
+                    target="_blank">https://en.wikipedia.org/wiki/Tallahassee,_Florida</a>).</p>
+            <aside class="state-capital-aside">
                 <h3>Tallahassee's Economy</h3>
                 <p>Some of the top employers for the area includes:</p>
+                <!--ORDERED LIST-->
                 <ol>
                     <li>State of Florida</li>
                     <li>Florida State University</li>
@@ -52,11 +46,22 @@
                 </ol>
             </aside>
         </section>
-        <section>
+        <section class="state-capital-founded">
+            <!--WHEN TALLAHASSEE WAS FOUNDED-->
             <h2>Tallahassee's history</h2>
             <p>Legislators had to do government business between Augustine and Pensacola. Unfortunately, the traveling
                 was very dangerous and took 20 days! Tallahassee was founded as Florida's state capital, as it was the
                 midway point between the two principal cities.</p>
+        </section>
+        <section>
+            <!--TALLAHASSEE ECONOMY-->
+            <h2>Tallahassee's Economy</h2>
+            <p>According to Wikipedia (<a href="https://en.wikipedia.org/wiki/Economy_of_Florida"
+                    target="_blank">https://en.wikipedia.org/wiki/Economy_of_Florida</a>), Florida's average income
+                level is
+                $47,684 whereas Tallahassee's was $23,778. But seeing as how Tallahassee is mostly a town made up of
+                college
+                students, that's not too surprising of a number. </p>
         </section>
     </main>
     <script src="../app.js"></script>
