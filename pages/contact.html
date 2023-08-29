@@ -24,30 +24,40 @@
         </nav>
     </header>
     <main>
-        <h1>Contact Us</h1>
-        <form>
-            <label for="first name">First Name
-            </label>
-            <input type="text" placeholder="first name" id="first-name" required>
+        <!--THIS IS THE SECTION-->
+        <section class="contact-form-section">
+            <h1>Contact Us</h1>
 
-            <label for="last name">Last Name
-            </label>
-            <input type="text" placeholder="last name" id="last-name" required>
+            <form>
+                <label for="first name">First Name
+                </label>
+                <input type="text" placeholder="first name" id="first-name" required>
 
-            <label for="email">Email
-            </label>
-            <input type="email" placeholder="email" id="email1" required>
+                <label for="last name">Last Name
+                </label>
+                <input type="text" placeholder="last name" id="last-name" required>
 
-            <label for="retype email">Re-type Email
-            </label>
-            <input type="email" placeholder="retype email" id="email2" required>
+                <label for="email">Email
+                </label>
+                <input type="email" placeholder="email" id="email1" required>
 
-            <label for="message">Message
-            </label>
-            <textarea name="message" id="message" placeholder="Type your message here!" cols="30" rows="10"></textarea>
+                <label for="retype email">Re-type Email
+                </label>
+                <input type="email" placeholder="retype email" id="email2" required>
 
-            <button id="btn" type="submit">Submit</button>
-        </form>
+                <label for="message">Message
+                </label>
+                <textarea name="message" id="message" placeholder="Type your message here!" cols="30" rows="10"
+                    required></textarea>
+
+                <button id="btn" type="submit">Submit</button>
+            </form>
+        </section>
+        <aside class="contact-form-aside">
+            <h2>Don't Forget:</h2>
+            <p>All fields for the contact form are required!</p>
+        </aside>
+
     </main>
     <script src="../app.js"></script>
 </body>

@@ -332,3 +332,23 @@ main {
 section.population > p {
     max-width: 35%;
 }}
+
+.contact-form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-form-aside {
+    position: absolute;
+    top: 200px;
+    width: 200px;
+    right: 6%;
+
+}
+
+@media screen and (max-width: 720px){
+    .contact-form-aside {
+        display: none;
+    }
+}
